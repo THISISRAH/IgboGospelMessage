@@ -1,4 +1,4 @@
-# Build Instructions for Igbo Gospel Message Android TV App
+# Build Instructions for Igbo Gospel Message Android App
 
 ## Prerequisites
 
@@ -24,7 +24,6 @@ Before building the APK, ensure you have the following installed:
   - Android SDK Platform 34 (Android 14)
   - Android SDK Build-Tools (latest)
   - Android SDK Platform-Tools
-  - Android TV SDK
 
 ### 3. Set Environment Variables
 ```bash
@@ -116,31 +115,31 @@ After building, verify the APK:
 
 1. **Check APK Size**: Should be reasonable (typically 10-50 MB)
 2. **Verify Contents**: Use APK analyzer in Android Studio
-3. **Test Installation**: Install on Android TV device or emulator
+3. **Test Installation**: Install on Android phone or emulator
 
 ## Testing the APK
 
-### On Android TV Device
+### On Android Phone
 
 1. **Enable Unknown Sources**
-   - Go to Settings → Security & restrictions → Unknown sources
-   - Enable for your file manager
+   - Go to Settings → Security → Unknown sources
+   - Enable for your browser or file manager
 
 2. **Install APK**
    - Copy APK to device (USB, network, or cloud)
-   - Use file manager to install
+   - Use file manager or browser to install
    - Follow installation prompts
 
 3. **Launch App**
-   - Find app in TV app launcher
+   - Find app in phone app launcher
    - Launch and test functionality
 
 ### On Emulator
 
-1. **Create TV Emulator**
+1. **Create Phone Emulator**
    - In Android Studio: Tools → AVD Manager
    - Create new virtual device
-   - Select Android TV category
+   - Select Phone category
    - Choose appropriate API level
 
 2. **Install and Test**
@@ -200,4 +199,4 @@ After building, verify the APK:
 
 ---
 
-**Note**: This app is specifically designed for Android TV devices and requires the Android TV SDK for proper functionality.
+**Note**: This app is specifically designed for Android phones and tablets and requires the standard Android SDK for proper functionality.
