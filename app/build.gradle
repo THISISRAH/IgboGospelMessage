@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.igbogospelmessage.tv'
-    compileSdk 34
+    compileSdk 29
 
     defaultConfig {
         applicationId "com.igbogospelmessage.tv"
         minSdk 21
-        targetSdk 34
+        targetSdk 29
         versionCode 1
         versionName "1.0"
 
